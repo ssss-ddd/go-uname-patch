@@ -80,8 +80,8 @@ License
 MIT – see LICENSE.
 
 
-##中文
-###为什么需要这个工具？
+## 中文
+### 为什么需要这个工具？
 从 Go 1.26 开始，运行时严格解析 uname -r（或 /proc/sys/kernel/osrelease）的输出。
 如果内核版本字符串不符合 X.Y.Z[-something] 标准格式（例如 4.9.118_gk6323v100c 包含下划线），程序会在启动阶段立刻崩溃，并输出：
 fatal error: failed to parse kernel version from uname
