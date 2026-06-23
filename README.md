@@ -55,7 +55,7 @@ The tool reads an optional signatures.conf file from the same directory as the p
 Each non‑empty, non‑comment line (comments start with #) must contain an 8‑byte hex signature.
 
 Example:
-# Go 1.26.3 ARMv7
+Go 1.26.3 ARMv7
 08109ae54e2f4de2
 How to obtain a new signature (e.g. when a new Go version is released):
 
@@ -123,7 +123,7 @@ MOV PC, LR    ; 立即返回调用者
 每行一个 8 字节十六进制签名，以 # 开头的行为注释。
 
 示例：
-# Go 1.26.3 ARMv7
+Go 1.26.3 ARMv7
 08109ae54e2f4de2
 如何获取新签名（例如 Go 发布新版本后）：
 
