@@ -78,6 +78,8 @@ You need Go 1.22 or 1.23 (which do not have the strict kernel version check) to 
 GOOS=linux GOARCH=arm GOARM=7 go build -o patch_kernel patch_kernel.go
 License
 MIT – see LICENSE.
+
+
 中文
 为什么需要这个工具？
 从 Go 1.26 开始，运行时严格解析 uname -r（或 /proc/sys/kernel/osrelease）的输出。
