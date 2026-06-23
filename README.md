@@ -43,7 +43,7 @@ Download the pre‑compiled `patch_kernel` binary from [Releases](https://github
 
 #### Basic patching
 
-```bash
+
 ./patch_kernel /path/to/program
 If you want to keep the original file unchanged:
 ./patch_kernel /path/to/program ./patched_program
